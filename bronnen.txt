@@ -1,0 +1,3 @@
+Audio bron: https://noaheakin.medium.com/adding-sound-to-your-js-web-app-f6a0ca728984#:
+Hulp met coderen: Kelvin van Voorst
+set time out: https://www.squash.io/how-to-set-time-delay-in-javascript/

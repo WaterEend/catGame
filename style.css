@@ -1,0 +1,64 @@
+body {
+    background-image: url(katPlaatjes/catGameBackground.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #cd9d64; 
+    
+}
+
+p {
+    font-family: arial;
+    font-size: 1em;
+}
+
+#katFace, #katBody {
+    width: 10%;
+    position: fixed;
+    left:60%;
+    bottom:-4%;
+}
+
+#voer {
+    width: 9%;
+    position: fixed;
+    left: 10%;
+    bottom: -4%;
+    cursor: pointer;
+}
+
+#water {
+    width: 9%;
+    position: fixed;
+    left: 20%;
+    bottom: -5%;
+    cursor: pointer;
+}
+
+#bank {
+    position: fixed;
+    left: 35%;
+    bottom: 8%;
+    cursor: pointer;
+}
+
+#hungerBar, #thirstBar, #energyBar {
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    position: fixed;
+    left: 50%;
+    bottom: 50%;
+    background-color: rgb(112, 103, 103);
+    width: 350px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    visibility: hidden;
+}
+
+#probeerOpnieuwButton {
+    border-color: black;
+    margin: 1em;
+}
